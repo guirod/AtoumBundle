@@ -32,7 +32,7 @@
             "atoum\\AtoumBundle": ""
         }
     },
-    "target-dir": "guirod/AtoumBundle",
+    "target-dir": "guirod/atoum-bundle",
     "config": {
         "bin-dir": "bin"
     },
