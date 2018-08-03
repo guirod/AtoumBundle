@@ -32,13 +32,13 @@
             "atoum\\AtoumBundle": ""
         }
     },
-    "target-dir": "guirod/atoum-bundle",
+    "target-dir": "guirod/AtoumBundle",
     "config": {
         "bin-dir": "bin"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "3.0-dev"
         }
     }
 }
