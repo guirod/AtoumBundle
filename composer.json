@@ -3,7 +3,7 @@
     "description": "Bundle around atoum unit testing framework",
     "type": "symfony-bundle",
     "keywords": ["atoum", "test", "unit testing"],
-    "homepage": "https://github.com/atoum/AtoumBundle",
+    "homepage": "https://github.com/guirod/AtoumBundle",
     "license": "MIT",
     "authors": [
         {
@@ -11,29 +11,28 @@
             "email": "dev@florianlb.fr"
         },
         {
-            "name": "Community contributors",
-            "homepage": "https://github.com/atoum/AtoumBundle/graphs/contributors"
+            "name": "guirod"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.3.0|^3.0",
-        "symfony/console": ">=2.3.0|^3.0",
-        "symfony/finder": ">=2.3.0|^3.0",
-        "symfony/dom-crawler": ">=2.3.0|^3.0",
-        "symfony/css-selector": ">=2.3.0|^3.0",
-        "atoum/atoum": "^3.1.1",
+        "php": "^5.6.0 || ^7.0.0 <7.4.0",
+        "symfony/framework-bundle": ">=3.4.0|^4.0",
+        "symfony/console": ">=3.4.0|^4.0",
+        "symfony/finder": ">=3.4.0|^4.0",
+        "symfony/dom-crawler": ">=3.4.0|^4.0",
+        "symfony/css-selector": ">=3.4.0|^4.0",
+        "atoum/atoum": "^3.3.0",
         "fzaninotto/faker": "1.*"
     },
     "require-dev": {
-        "symfony/form": "2.*"
+        "symfony/form": "3.*"
     },
     "autoload": {
         "psr-0": {
             "atoum\\AtoumBundle": ""
         }
     },
-    "target-dir": "atoum/AtoumBundle",
+    "target-dir": "guirod/AtoumBundle",
     "config": {
         "bin-dir": "bin"
     },
